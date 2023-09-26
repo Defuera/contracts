@@ -1,7 +1,7 @@
 import { ethers } from 'hardhat';
 
 async function main() {
-  const nft = await ethers.deployContract('ArtistPoolformation');
+  const nft = await ethers.deployContract('ArtistPoolFormation');
 
   await nft.waitForDeployment();
 
